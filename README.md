@@ -20,7 +20,7 @@ Task:
  Describe the docker-compose.yml, Dockerfile, and necessary PHP/MySQL steps used to complete this task. 
 </pre> 
 --------------------------------------------------
-### Step 1:
+## Step 1:
 ### Q1: How do you create a persistent storage volume for MySQL data? 
 
 ✅ Answer: docker volume create db-data 
@@ -29,7 +29,7 @@ Task:
 
 ✅ Answer: docker network create app-network 
 --------------
-### Step 2: Create docker-compose.yml 
+## Step 2: Create docker-compose.yml 
 
 ### Q3: What should your docker-compose.yml look like to define PHP and MySQL services with custom volume and network? 
 <pre>
@@ -70,7 +70,7 @@ volumes:
   
 </pre>
 ------------
-### Step 3: Create Dockerfile for PHP with MySQLi support 
+## Step 3: Create Dockerfile for PHP with MySQLi support 
 
 **Q4: What Dockerfile is used to add mysqli support in the PHP container?**
 <pre>
@@ -81,7 +81,7 @@ RUN docker-php-ext-install mysqli
   
 </pre>
 ---------------
-### Step 4: Create HTML and PHP Files
+## Step 4: Create HTML and PHP Files
 **Q5: What does your index.html look like for the login form?**
 
 ✅ Answer:
@@ -142,7 +142,7 @@ if ($conn->connect_error) {
 ?>
 </pre>
 ---------------
-### Step 5: Start and Test the App
+## Step 5: Start and Test the App
 **Q8: How do you start the application?**
 
 
@@ -151,7 +151,7 @@ if ($conn->connect_error) {
 docker-compose up --build
 </pre>
 -------------
-### Step 6: Create Users Table and Insert Data
+## Step 6: Create Users Table and Insert Data
 **Q9: How do you log in to MySQL inside the container?**
 
 **✅ Answer:**

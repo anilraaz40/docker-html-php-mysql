@@ -69,7 +69,7 @@ volumes:
   db-data:  
   
 </pre>
-
+------------
 ### Step 3: Create Dockerfile for PHP with MySQLi support 
 
 **Q4: What Dockerfile is used to add mysqli support in the PHP container?**
@@ -80,6 +80,7 @@ FROM php:8.2-apache
 RUN docker-php-ext-install mysqli
   
 </pre>
+---------------
 ### Step 4: Create HTML and PHP Files
 **Q5: What does your index.html look like for the login form?**
 
@@ -140,7 +141,7 @@ if ($conn->connect_error) {
 }
 ?>
 </pre>
-
+---------------
 ### Step 5: Start and Test the App
 **Q8: How do you start the application?**
 
@@ -149,7 +150,7 @@ if ($conn->connect_error) {
 <pre>
 docker-compose up --build
 </pre>
-
+-------------
 ### Step 6: Create Users Table and Insert Data
 **Q9: How do you log in to MySQL inside the container?**
 

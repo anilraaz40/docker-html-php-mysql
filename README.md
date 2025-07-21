@@ -20,6 +20,7 @@ Task:
  Describe the docker-compose.yml, Dockerfile, and necessary PHP/MySQL steps used to complete this task. 
 </pre> 
 --------------------------------------------------
+### Step 1:
 ### Q1: How do you create a persistent storage volume for MySQL data? 
 
 ✅ Answer: docker volume create db-data 
@@ -27,7 +28,7 @@ Task:
 ### Q2: How do you create a custom Docker network so services can communicate? 
 
 ✅ Answer: docker network create app-network 
-
+--------------
 ### Step 2: Create docker-compose.yml 
 
 ### Q3: What should your docker-compose.yml look like to define PHP and MySQL services with custom volume and network? 

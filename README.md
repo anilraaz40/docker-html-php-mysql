@@ -1,4 +1,5 @@
 # docker-html-php-mysql
+<pre>
 Question: 
 
 You are tasked with creating a simple Dockerized PHP web application that provides a login interface. The system should meet the following requirements: 
@@ -17,7 +18,7 @@ Insert a test user (test@example.com / password123) into the database to verify 
 
 Task: 
  Describe the docker-compose.yml, Dockerfile, and necessary PHP/MySQL steps used to complete this task. 
- 
+</pre> 
 --------------------------------------------------
 ### Q1: How do you create a persistent storage volume for MySQL data? 
 

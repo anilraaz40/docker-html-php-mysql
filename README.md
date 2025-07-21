@@ -27,7 +27,10 @@ Task:
 
 ### Q2: How do you create a custom Docker network so services can communicate? 
 
-✅ Answer: docker network create app-network 
+ **✅ Answer:** 
+ <pre>
+docker network create app-network 
+ </pre>
 --------------
 ## Step 2: Create docker-compose.yml 
 
